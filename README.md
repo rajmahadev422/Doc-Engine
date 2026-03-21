@@ -1,8 +1,8 @@
-![gsoc](https://raw.githubusercontent.com/rajmahadev422/GSoC-Proposal/f9b464770fd3a12771a2064cb29d80519e137dba/images/GSoC-logo.svg)
+![gsoc](https://raw.githubusercontent.com/rajmahadev422/GSoC-Proposal/e2e78bb9389d1049f41b1482897f37b66f3eddae/public/GSoC-logo.svg)
 
 # <p align="center"> 🚀 GSoC Proposal</p>
 
-![opencv](https://github.com/rajmahadev422/GSoC-Proposal/blob/main/images/opencv_logo_icon_170888.png?raw=true)
+![opencv](https://github.com/rajmahadev422/GSoC-Proposal/blob/main/public/opencv_logo.png?raw=true)
 
 ## Custom Markdown-to-HTML Documentation Engine
 
@@ -168,6 +168,7 @@ Key components:
 ## ⭐ Why Me
 
 [Live Link](https://rajmahadev422.github.io/GSoC-Proposal/)
+[github-link](https://github.com/rajmahadev422/GSoC-Proposal.git)
 
 * I have already built a similar **Markdown-to-HTML documentation engine**, giving me practical experience with parsing, rendering, and UI challenges.
 * My background in full-stack development and proficiency in JavaScript, C++, and Python enables me to implement this project efficiently.
@@ -175,6 +176,10 @@ Key components:
 
 [md file](docs/tutorial/threshold_in_range.md)
 [page](https://rajmahadev422.github.io/GSoC-Proposal/#/tutorial/threshold_in_range.md)
+
+![img](https://github.com/rajmahadev422/GSoC-Proposal/blob/main/public/image.png?raw=true)
+![img1](https://github.com/rajmahadev422/GSoC-Proposal/blob/main/public/img1.png?raw=true)
+![img2](https://github.com/rajmahadev422/GSoC-Proposal/blob/main/public/img2.png?raw=true)
 
 ---
 
