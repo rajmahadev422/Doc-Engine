@@ -33,6 +33,8 @@ headings.forEach((heading, index) => {
     // document.getElementById(id).scrollIntoView({
     //   behavior: "smooth"
     // });
+    btn.classList.toggle("active");
+    menu.classList.toggle("show");
   };
 
   ul.appendChild(li);
