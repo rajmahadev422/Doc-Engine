@@ -3,6 +3,10 @@
     {
       "name": "Qucik Start",
       "url": "intro/quick-start.md"
+    },
+    {
+      "name": "Install in Windows",
+      "url": "intro/window_install_opencv.md"
     }
   ],
   "tutorial": [
