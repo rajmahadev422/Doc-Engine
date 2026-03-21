@@ -1,6 +1,6 @@
 ![gsoc](https://raw.githubusercontent.com/rajmahadev422/GSoC-Proposal/e2e78bb9389d1049f41b1482897f37b66f3eddae/public/GSoC-logo.svg)
 
-# <p align="center"> 🚀 GSoC Proposal</p>
+# <p align="center">🚀 GSoC Proposal</p>
 
 ![opencv](https://github.com/rajmahadev422/GSoC-Proposal/blob/main/public/opencv_logo.png?raw=true)
 
@@ -16,12 +16,12 @@
 ---
 
 ## Personal Information
- 
+
 ### Student Details
 
 * **Name** : Mahadev Kumar
 * **GitHub** : [rajmahadev422](https://github.com/rajmahadev422)
-* **Email** : [Mahadev Raj](rajmahadev422@gmail.com) , [24je0035](24je0035@iitism.ac.in)
+* **Email** : [Mahadev Raj](mailto:rajmahadev422@gmail.com) , [24je0035](mailto:24je0035@iitism.ac.in)
 * **LinkedIn** : [Mahadev Kumar](https://www.linkedin.com/in/mahadev-kumar-15b2ba320)
 * **Portfolio** : [Portfolio Link](https://portfolio-tau-three-ozpwygtbtt.vercel.app/)
 * **Resume** : [Resume Link](https://drive.google.com/file/d/13vmP6K7SM7ObNtUgFnWEbi2vFCqwTJGj/view?usp=drivesdk)
