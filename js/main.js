@@ -25,7 +25,10 @@ menuBtn.onclick = () => {
 };
 
 // ===== MAIN LOGIC =====
+const overlay = document.getElementById("overlay");
+
 async function init() {
+  overlay.classList.toggle("show");
   renderSidebar();
 
   const page = getCurrentPage();
@@ -39,6 +42,7 @@ async function init() {
   render(ast);
   updateBreadcrumb(page);
   wrapTables();
+  overlay.classList.remove("show");
 }
 
 window.addEventListener("hashchange", init);
@@ -68,7 +72,7 @@ function wrapTables() {
     wrapper.appendChild(table);
   });
 }
-// const overlay = document.getElementById("overlay");
+
 
 // menuBtn.onclick = () => {
 //   sidebar.classList.toggle("show");
