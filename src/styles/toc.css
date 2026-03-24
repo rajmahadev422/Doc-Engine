@@ -1,7 +1,7 @@
 /* Container */
 #toc {
   position: fixed;
-  top: 100px;
+  top: 50px;
   right: 20px;
   z-index: 100;
 }
@@ -33,9 +33,11 @@
 .toc-btn.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
+
 .toc-btn.active span:nth-child(2) {
   opacity: 0;
 }
+
 .toc-btn.active span:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
 }
@@ -43,13 +45,13 @@
 /* Menu */
 .toc-menu {
   position: absolute;
-  bottom: -160px;
   right: 0;
   background-color: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
   overflow-y: auto;
-opacity: 0;
+  width: 200px;
+  opacity: 0;
   transform: translateY(10px);
   pointer-events: none;
   transition: 0.25s;

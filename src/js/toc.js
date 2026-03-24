@@ -23,23 +23,6 @@ li1.style.fontWeight = "bold";
 li1.style.cursor = "default";
 
 ul.appendChild(li1);
-// headersList.forEach((heading, index) => {
-//   const id = "heading-" + index;
-
-//   const li = document.createElement("li");
-//   li.textContent = heading.text;
-//   console.log(heading);
-
-//   li.onclick = () => {
-//     // document.getElementById(id).scrollIntoView({
-//     //   behavior: "smooth"
-//     // });
-//     btn.classList.toggle("active");
-//     menu.classList.toggle("show");
-//   };
-
-//   ul.appendChild(li);
-// });
 
 menu.appendChild(ul);
 tocContainer.appendChild(btn);
@@ -48,10 +31,12 @@ tocContainer.appendChild(menu);
 /* Default expand */
 btn.classList.add("active");
 menu.classList.add("show");
+autoCloseToc(3000)
 // Toggle
 btn.addEventListener("click", () => {
   btn.classList.toggle("active");
   menu.classList.toggle("show");
+  autoCloseToc(5000)
 });
 
 document.addEventListener("click", (e) => {
@@ -65,6 +50,12 @@ document.addEventListener("click", (e) => {
   });
 });
 
+function autoCloseToc(time = 3000) {
+  setTimeout(() => {
+    btn.classList.remove("active");
+    menu.classList.remove("show");
+  }, time);
+}
 window.addEventListener("DOMContentLoaded", async () => {
   const targetNode = document.getElementById("app");
 
