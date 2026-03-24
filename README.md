@@ -1,6 +1,6 @@
 # Dev-Doc
 
-[Live](https://rajmahadev422.github.io/Doc-Engine/)
+[Live](https://rajmahadev422.github.io/Dev-Doc/)
 
 ## How to write in file.md
 
